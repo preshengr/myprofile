@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+   * {
+     margin: 0; 
+     padding: 0; 
+     box-sizing: border-box; 
+     font-family: 'Poppins', sans-serif; 
+     scroll-behavior: smooth; 
+   }
+
+   /* This is a global style reset. 
+   - Sets default values for margin, padding, and box-sizing for all elements.
+   - Specifies the font family for the entire page.
+   - Enables smooth scrolling behavior for better user experience.
+*/
+
+section {
+    padding: 100px 200px; 
+  }
+  
+  /* 
+     This rule applies a consistent padding to all <section> elements 
+     for better visual spacing.
+  */
+  
+  .main {
+    position: relative; /* Allows for absolute positioning of child elements */
+    width: 100%; 
+    min-height: 100vh; /* Ensures the section occupies the full viewport height */
+    display: flex; /* Enables flexbox layout for easier alignment */
+    align-items: center; /* Centers content vertically within the section */
+    background: url(images/bg.jpg) no-repeat; /* Sets the background image */
+    background-size: cover; /* Scales the image to cover the entire area */
+    background-position: center; /* Centers the image within the background */
+    background-attachment: fixed; /* Keeps the background image fixed while scrolling */
+  }
+  
+  /* 
+     This class styles the main section of the page.
+     - Uses flexbox for layout and alignment.
+     - Styles the background with an image and appropriate properties.
+  */
