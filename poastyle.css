@@ -40,3 +40,23 @@ section {
      - Uses flexbox for layout and alignment.
      - Styles the background with an image and appropriate properties.
   */
+  .main .content{
+    max-width: 800px;
+  }
+
+  .main .content h2{
+    color: #fff;
+    font-size: 2em;
+    font-weight: 500;
+  }
+
+  .main .content h2 span{
+    font-size: 2.8em;
+    font-weight: 600;
+  }
+
+  .animated-text{
+    position: relative;
+    height: 70px;
+    overflow: hidden;
+  }
