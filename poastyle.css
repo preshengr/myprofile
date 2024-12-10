@@ -55,8 +55,21 @@ section {
     font-weight: 600;
   }
 
-  .animated-text{
-    position: relative;
-    height: 70px;
-    overflow: hidden;
+  .animated-text {
+    position: relative; /* Enables absolute positioning for child elements */
+    height: 70px; /* Sets a fixed height for the container */
+    overflow: hidden; /* Hides any content overflowing the container */
+  }
+  
+  .animated-text h3 {
+    color: #4e9eff; /* Sets the text color */
+    font-size: 3em; /* Sets the font size */
+    font-weight: 700; /* Sets the font weight (boldness) */
+    line-height: 70px; /* Sets the line height to match the container height */
+    letter-spacing: 1px; /* Adds spacing between letters */
+  }
+  
+  .animated-text h3:nth-child(1) {
+    /* Applies an animation to the first <h3> element */
+    animation: text-move 10s infinite; 
   }
