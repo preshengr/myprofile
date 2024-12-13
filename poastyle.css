@@ -239,3 +239,45 @@ section {
     object-fit: cover; /* Scales the image to cover the entire card area */
     border-radius: 10px; /* Rounds the corners of the image */
   }
+
+  .about .content .col-right .section-title {
+    font-size: 2em;
+    font-weight: 800;
+    margin-bottom: 20px;
+  }
+
+  .about .content .col-right .paragraph-text {
+    font-size: 1em;
+  }
+
+  .skills {
+    background: #000016;
+  }
+
+  .skills .content {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    margin-top: 20px;
+  }
+
+  .skills .content .col-left {
+    position: relative;
+    width: 46%;
+  }
+
+  .skills .content .col-left .content-title {
+    margin-bottom: 20px;
+  }
+
+  .skills .content .col-right {
+    position: relative;
+    width: 46%;
+  }
+
+  .skills .content .col-right .bar {
+    margin-bottom: 15px;
+    padding: 10px;
+  }
