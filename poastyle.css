@@ -54,7 +54,7 @@ section{
 }
 
 .animated-text h3:nth-child(1){
-  animation: text-move 10s infinite;
+  animation: text-move 20s infinite;
 }
 
 @keyframes text-move{
