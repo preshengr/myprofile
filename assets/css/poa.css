@@ -310,3 +310,46 @@ header .btn-group {
 .mobile-nav .nav-title { margin-bottom: 1rem; }
 
 .mobile-nav .nav-item { margin-bottom: 0.5rem; }
+
+.mobile-nav .nav-link {
+  font-size: var(--fs-3);
+  color: var(--foreground-secondary);
+}
+
+.mobile-nav .nav-link:hover { color: var(--accent); }
+
+/*-----------------------------------*\ 
+  #HERO SECTION
+\*-----------------------------------*/
+
+.hero {
+  background: var(--background-primary);
+  padding-top:    2rem;
+  padding-bottom: var(--py);
+  text-align: center;
+}
+
+.hero .h1 {
+  margin-bottom: 1rem;
+  line-height: 1.6;
+}
+
+.hero b {
+  color: var(--accent);
+  font-weight: inherit;
+}
+
+.hero .h3 {
+  color: var(--foreground-secondary);
+  margin-bottom: 2rem;
+}
+
+.hero .btn-group {
+  display:         flex;
+  justify-content: center;
+  flex-wrap:       wrap;
+  gap: 15px;
+  text-align: center;
+}
+
+.hero .right { display: none; }
